@@ -26,6 +26,8 @@ iframe {
 
 button {
   float: top;
+  background-color: orange;
+  color: white;
   width: 15%;
   height: 10%;
 }
