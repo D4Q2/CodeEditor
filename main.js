@@ -6,9 +6,7 @@ function compile() {
 
   document.body.onkeyup = function() {
     code.open();
-    code.writeln(
-      html.value +
-    );
+    code.writeln( html.value );
     code.close();
   };
 }
