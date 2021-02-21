@@ -10,6 +10,11 @@ function compile() {
     code.close();
   //};
 }
+
+function setupTemplate() {
+  var html = document.getElementById("html");
+  html.value = "Hey";
+}
 /*        "<style>" +
         css.value +
         "</style>" +
