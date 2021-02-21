@@ -3,16 +3,7 @@
     <head>
         <link rel="shortcut icon" href="image.jpg">
         <title>Test 0.0.5</title>
-        <script>
-const [button, html, css, javascript, iframe] = document.querySelectorAll('button, textarea, iframe');
-button.addEventListener('click', () => {
-  const fullHTML = `
-    <!doctype html><html>
-      <head><style>${css.value}</style></head>
-      <body>${html.value}<script>${javascript.value}<\/script></body>
-    </html>`;
-  iframe.src = 'data:text/html,' + encodeURIComponent(fullHTML);
-});</script>
+        <script src="main.js"></script>
         <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
