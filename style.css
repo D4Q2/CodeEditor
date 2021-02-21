@@ -1,3 +1,43 @@
+body {
+    background-color: rgb(36, 37, 51);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: absolute;
+}
+
+.topbar {
+    position: fixed;
+    background-image: url("image.jpg");
+    background-color: cyan;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 220px; /* title height and menu height must equal topbar hegiht and main margin-top*/
+    width: 100vw;
+}
+
+.menu {
+    text-align: right;
+    height: 20px;/* title height and menu height must equal topbar hegiht and main margin-top*/
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+    text-align: center;
+    height: 200px;/* title height and menu height must equal topbar hegiht and main margin-top*/
+}
+
+.main {
+
+    margin-top: 220px;/* title height and menu height must equal topbar hegiht and main margin-top*/
+    color: white;
+    background-color: black;
+    height: 100vh;
+}
+
 textarea {
   display: block;
 }
