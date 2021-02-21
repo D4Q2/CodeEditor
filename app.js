@@ -18,5 +18,3 @@ function compile() {
     code.close();
   };
 }
-
-compile();
