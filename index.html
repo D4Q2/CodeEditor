@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
-          <button>Run</button>
-          <textarea><span id="span">a span</span></textarea>
-          <textarea>span { color: green; }</textarea>
-          <textarea>span.onclick = () => span.style.color = 'yellow';</textarea>
-          <iframe sandbox="allow-scripts"></iframe>
+  <head>
+    <title>Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <textarea id="html" placeholder="HTML"></textarea>
+    <textarea id="css" placeholder="CSS"></textarea>
+    <textarea id="js" placeholder="JavaScript"></textarea>
+    <iframe id="code"></iframe>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
 </html>
