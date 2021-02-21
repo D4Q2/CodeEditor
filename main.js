@@ -1,5 +1,6 @@
 const [button, html, css, javascript, iframe] = document.querySelectorAll('button, textarea, iframe');
-button.addEventListener('click', () => {
+if (button != null) {
+  button.addEventListener('click', () => {
   const fullHTML = `
     <!doctype html><html>
       <head><style>${css.value}</style></head>
@@ -7,3 +8,4 @@ button.addEventListener('click', () => {
     </html>`;
   iframe.src = 'data:text/html,' + encodeURIComponent(fullHTML);
 });
+}
