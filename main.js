@@ -26,12 +26,6 @@ function setupTemplate() {
   
   html.value = textFileContent;
 }
-
-function prettify() {
-  code = document.getElementById("html");
-  
-}
-prettify();
 /*        "<style>" +
         css.value +
         "</style>" +
