@@ -31,7 +31,7 @@ reader.onload = (e) => {
   
 reader.onerror = (e) => alert(e.target.error.name); 
   
-reader.readAsText(file); 
+reader.readAsText("test.txt"); 
   //html.value = ;
 }
 /*        "<style>" +
