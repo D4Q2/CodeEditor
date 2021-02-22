@@ -11,9 +11,28 @@ function compile() {
   //};
 }
 
+
+
 function setupTemplate() {
+  let reader = new FileReader(); 
+  
+
   var html = document.getElementById("html");
-  html.value = "Hey";
+  
+reader.onload = (e) => { 
+        const file = e.target.result; 
+  
+        // This is a regular expression to identify carriage  
+        // Returns and line breaks 
+        const lines = file.split(/\r\n|\n/); 
+        html.value = lines.join('\n'); 
+  
+}; 
+  
+reader.onerror = (e) => alert(e.target.error.name); 
+  
+reader.readAsText(file); 
+  //html.value = ;
 }
 /*        "<style>" +
         css.value +
