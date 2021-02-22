@@ -44,6 +44,9 @@ button {
 }
 
 .container {
+  position: absolute;
+  height: 95vh;
+  width: 95vw;
   display: grid;
   grid-template-columns: 45vw 45vw;
   grid-template-rows: auto;
