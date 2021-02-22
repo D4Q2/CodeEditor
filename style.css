@@ -7,15 +7,14 @@ body {
 }
 
 html {
-  width: 40%;
+  width: 40vw;
   height: 100vh;
-  float: top;
   min-height: 250px;
   overflow: scroll;
-  margin: auto;
-  display: inline-block;
-  background: #f4f4f9;
-  outline: none;
+  margin: 0;
+/*  display: inline-block;*/
+  background: #ffffff;
+  outline: black;
   font-family: Courier, sans-serif;
   font-size: 14px;
 }
