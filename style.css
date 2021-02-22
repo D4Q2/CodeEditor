@@ -30,8 +30,9 @@ button {
   float: top;
   background-color: orange;
   color: white;
-  width: 7.5%;
-  height: 10%;
+  width: 50%;
+  height: 100%;
+  grid-area: buttons;
 }
 
 .html {
@@ -47,7 +48,7 @@ button {
   grid-template-columns: 45vw 45vw;
   grid-template-rows: auto;
   grid-template-areas: 
-    "code output"
-    "code output"
-    "code output";
+    "code buttons output"
+    "code buttons output"
+    "code buttons output";
 }
