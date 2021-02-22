@@ -1,4 +1,14 @@
-<script src="template.txt"></script>
+let template = "
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    
+  </body>
+</html>
+"
 
 function compile() {
   var html = document.getElementById("html");
