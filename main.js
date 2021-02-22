@@ -17,7 +17,7 @@ function compile() {
 
 function setupTemplate() {
   var request = new XMLHttpRequest();
-  request.open('GET', 'text.txt', false);
+  request.open('GET', 'template.txt', false);
   request.send();
   var textFileContent = request.responseText; 
   
