@@ -5,9 +5,9 @@ body {
 }
 
 html {
-  width: 40vw;
+  /*width: 40vw;
   height: 100vh;
-  min-height: 250px;
+  min-height: 250px;*/
   overflow: scroll;
   margin: 0;
 /*  display: inline-block;*/
@@ -18,20 +18,15 @@ html {
 }
 
 iframe {
-  float: top;
   background: #f4f4f9;
-  width: 100%;
-  height: 100%;
 }
 
 tempButton {
-  float: top;
   background-color: orange;
   color: white;
   grid-area: temp;
 }
 runButton {
-  float: top;
   background-color: orange;
   color: white;
   grid-area: run;
@@ -51,7 +46,7 @@ runButton {
   height: 95vh;
   width: 95vw;
   display: grid;
-  grid-template-columns: 45vw 45vw;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
   grid-template-rows: auto;
   grid-template-areas: 
     "code temp run output"
