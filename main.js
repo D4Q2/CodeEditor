@@ -1,3 +1,5 @@
+<script src="template.txt"></script>
+
 function compile() {
   var html = document.getElementById("html");
   //var css = document.getElementById("css");
@@ -19,20 +21,7 @@ function setupTemplate() {
 
   var html = document.getElementById("html");
   
-reader.onload = (e) => { 
-        const file = e.target.result; 
-  
-        // This is a regular expression to identify carriage  
-        // Returns and line breaks 
-        const lines = file.split(/\r\n|\n/); 
-        html.value = lines.join('\n'); 
-  
-}; 
-  
-reader.onerror = (e) => alert(e.target.error.name); 
-  
-reader.readAsText("test.txt"); 
-  //html.value = ;
+  html.value = template;
 }
 /*        "<style>" +
         css.value +
