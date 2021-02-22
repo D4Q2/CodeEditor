@@ -1,4 +1,4 @@
-let template = "<!DOCTYPE html><html><head></head><body></body</html>"
+
 
 function compile() {
   var html = document.getElementById("html");
@@ -16,12 +16,15 @@ function compile() {
 
 
 function setupTemplate() {
-  let reader = new FileReader(); 
+  var request = new XMLHttpRequest();
+  request.open('GET', 'text.txt', false);
+  request.send();
+  var textFileContent = request.responseText; 
   
 
   var html = document.getElementById("html");
   
-  html.value = template;
+  html.value = textFileContent;
 }
 /*        "<style>" +
         css.value +
