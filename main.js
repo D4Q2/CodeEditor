@@ -8,7 +8,7 @@ function compile() {
 
   //document.body.onkeyup = function() {
     code.open();
-    code.writeln( html.value );
+    code.writeln( html.innerHTML );
     code.close();
   //};
 }
@@ -24,7 +24,7 @@ function setupTemplate() {
 
   var html = document.getElementById("html");
   
-  html.value = textFileContent;
+  html.innerHTML = textFileContent;
 }
 
 var els = document.getElementsByClassName("html");
