@@ -33,3 +33,20 @@ button {
   width: 7.5%;
   height: 10%;
 }
+
+.html {
+  grid-area: code;
+}
+.frame {
+  grid-area: output;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 45vw 45vw;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "code output"
+    "code output"
+    "code output";
+}
