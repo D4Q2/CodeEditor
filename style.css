@@ -38,6 +38,8 @@ runButton {
   background-color: white;
 }
 .frame {
+  height: 100%;
+  width: 100%;
   grid-area: output;
 }
 
@@ -49,7 +51,7 @@ runButton {
   grid-template-columns: 25vw 25vw 25vw 25vw;
   grid-template-rows: auto;
   grid-template-areas: 
-    "code temp run output"
-    "code temp run output"
-    "code temp run output";
+    "code run temp output"
+    "code run temp output"
+    "code run temp output";
 }
