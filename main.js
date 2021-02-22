@@ -3,7 +3,7 @@
 function compile() {
   var html = document.getElementById("html").innerHTML;
   var code = document.getElementById("code").contentWindow.document;
-  
+  console.log(html);
   code.open();
   code.writeln( html );
   code.close();
