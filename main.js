@@ -26,6 +26,17 @@ function setupTemplate() {
   
   html.value = textFileContent;
 }
+
+var els = document.getElementsByClassName("html");
+var searchValue = "test";
+
+for(var i = 0; i < els.length; i++){
+  if(els[i].innerHTML.indexOf(searchValue) > -1){
+    for(var j = 0; j < els[i].innerHTML.indexOf(searchValue); j++){
+      els[i].innerHTML.indexOf(searchValue).color = red;
+    } 
+  }
+}
 /*        "<style>" +
         css.value +
         "</style>" +
