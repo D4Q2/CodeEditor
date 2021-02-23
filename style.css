@@ -10,7 +10,7 @@ html {
   min-height: 250px;*/
   overflow: scroll;
   margin: 0;
-/*  display: inline-block;*/
+  display: inline-block;
   background: #ffffff;
   outline: black;
   font-family: Courier, sans-serif;
