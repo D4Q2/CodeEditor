@@ -16,6 +16,9 @@ html {
   font-family: Courier, sans-serif;
   font-size: 14px;
 }
+div{
+    display: inline-block;
+}
 
 iframe {
   background: #f4f4f9;
