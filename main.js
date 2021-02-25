@@ -87,7 +87,7 @@
       };
 
       // Turn div into an editor
-      const el = document.getElementById("html");
+      const el = document.querySelector(".html");
       el.focus();
       editor(el);
 
