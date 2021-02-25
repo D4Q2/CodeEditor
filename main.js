@@ -126,7 +126,7 @@ function setupTemplate() {
 
   var html = document.getElementById("html");
   
-  html.value = textFileContent;
+  //html.value = textFileContent;
 }
 /*        "<style>" +
         css.value +
