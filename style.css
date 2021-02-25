@@ -6,6 +6,7 @@ body {
 }
 
 .html {
+  text-align: left;
   width: 40%;
   height: 50vh;
   float: top;
