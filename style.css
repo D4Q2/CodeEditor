@@ -1,12 +1,11 @@
 body {
   text-align: center;
   background-color: cyan;
-  min-width:1000px;
-  min-height:1000px;
-  
+  /*min-width:1000px;
+  min-height:1000px;*/
 }
 
-textarea {
+.html {
   width: 40%;
   height: 50vh;
   float: top;
